@@ -1,0 +1,15 @@
+
+<html>
+    <body>
+        <h1>Skills</h1>
+            <ul>
+                <% skills.forEach(function(s){ %>
+                <li>
+                    <a href='/skills/<%= s.Skill %>'> <%= s.Skill %></a>
+                </li>
+                <% }); %>
+            </ul>
+    </body>
+  </html>
+
+ 
